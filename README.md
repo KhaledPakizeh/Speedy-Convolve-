@@ -1,5 +1,5 @@
 # Speedy-Convolve:
-Created a 1D convolution pipeline that received data through a DRAM and stored output data to an output DRAM. The input data was passed through a pipline which in this case was used for a convlution process. 
+Created a 1D convolution pipeline that received data through a DRAM and stored output data to an output DRAM. The input data was passed through a pipline which in this case was used for a convolution  process. 
 
 ## Hardware: 
 [Zed-board system on chip (SoC)](http://zedboard.org/support/documentation/1521)
