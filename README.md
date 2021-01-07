@@ -9,4 +9,4 @@ Used a smart buffer that allowed the throughput to be depended on the speed of t
 ![](pics/convolve.PNG)
 
 ## Conclusion: 
-Unrolled piplines on FPGAs/(SoCs) allow very speedy executions in comparsion to processing done on a fixed point microprocessor. Challanges such as metastability could be solved through various techniques, such as a FIFO synchronizer. Thorough testing of all the components needs to be done prior to creating the final circuit.    
+Unrolled piplines on FPGAs/(SoCs) allow very speedy executions in comparsion to processing done on a fixed point microprocessor. Challanges such as metastability could be solved through various techniques, such as a FIFO synchronizer. Outputs need to be clipped in order to prevent bit overflow and causing the outputs to round back to 0s.   
