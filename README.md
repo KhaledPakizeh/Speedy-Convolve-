@@ -1,5 +1,9 @@
 # Speedy-Convolve:
 Created a 1D convolution pipeline that received data through a DRAM and stored output data to an output DRAM. The input data was passed through a pipline which in this case was used for a convlution process. 
+
+## Hardware: 
+[Zed-board](http://zedboard.org/support/documentation/1521)
+
 ## Challanges:
 Input stream data is recived from a DRAM that operats on a different clock speed then the pipline. The soultion was to use a FIFO synchronization mechanisim to prevent metastability (error) on the input data. 
 ## Process: 
